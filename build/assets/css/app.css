@@ -5996,5 +5996,8 @@ h5, h2 {
 .review-buttons {
   width: 10%; }
 
+.submit-buttons {
+  width: 20%; }
+
 label {
   font-size: 18px; }
