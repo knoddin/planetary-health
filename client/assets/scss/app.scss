@@ -1,0 +1,166 @@
+@import "settings";
+@import "foundation";
+
+$background-gray: #f1f1f1;
+$button-color: #C0C0C0;
+$main-font: 'Heebo', sans-serif;
+
+@include breakpoint(medium) {
+  body, .menu-bar {
+    background-color: $background-gray;
+    font-family: $main-font;
+  }
+
+  .menu-bar {
+    font-family: $main-font;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+  }
+
+  img {
+    margin-top: -10%;
+    overflow-y: hidden;
+  }
+
+  .main-photo {
+    height: 450px;
+    overflow: hidden;
+    padding-top: 0;
+    position: static;
+  }
+
+}
+
+
+
+.review-averages, .city-header {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+.average {
+  display: inline-block;
+  text-align: center;
+  width: 170px;
+}
+
+.write-review,  {
+  text-align: right;
+}
+
+h2 {
+  padding-left: 2%;
+}
+
+h5, h2 {
+  vertical-align: middle;
+}
+
+.header-title {
+  float: left;
+}
+
+
+
+.grid-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// .grid-frame {
+//   overflow: hidden;
+// }
+
+.main-review {
+  margin-left: 2%;
+  margin-top: 2%;
+  // padding-right: 0;
+  width: 100%;
+}
+
+.overall-review {
+  display: inline-block;
+  // margin-right: 0;
+  float: left;
+  width: 47%;
+}
+
+.review-form {
+  display: inline-block;
+  float: right;
+  padding-right: 10%;
+  width: 42%;
+}
+
+.button {
+  background-color: $button-color;
+  width: 100%;
+}
+
+.review-input {
+  margin-left: 25%;
+  margin-right: 25%;
+  // margin-top: 2%;
+  width: 40%;
+}
+
+.review-paragraph {
+  height: 100px;
+}
+
+.stars {
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.each-star {
+  display: inline-block;
+  height: 75px;
+  width: 40px;
+}
+
+.star-header {
+  font-size: 25px;
+}
+
+.enter-zip {
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+.zip-input {
+  display: inline-block;
+  float: right;
+  width: 10px;
+}
+
+.enviro-titles {
+  float: left;
+}
+
+.star-subsets {
+  float: right;
+}
+
+.stars-enviro {
+  margin-left: 25%;
+  margin-right: 30%;
+  // width: 100%;
+}
+
+.star-block {
+  width: 100%;
+}
+
+.review-buttons {
+  width: 10%;
+}
+
+label {
+  font-size: 18px;
+}
